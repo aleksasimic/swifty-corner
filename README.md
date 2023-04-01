@@ -1,4 +1,4 @@
-# Swifty Corner ![swiftycornerlogo](https://user-images.githubusercontent.com/46538248/229299702-0def6043-6a3e-4e1a-936e-c42b58a6902f.png)
+# Swifty Corner ![rsz_swiftycornerlogo](https://user-images.githubusercontent.com/46538248/229299923-62adf554-04e1-4e1c-85b8-7262023465c6.png)
 
 Welcome to Swifty Corner! 
 
