@@ -1,0 +1,673 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		94E8300029D88C5400869522 /* Swifty_CornerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E82FFF29D88C5400869522 /* Swifty_CornerApp.swift */; };
+		94E8300229D88C5400869522 /* SwiftyCornerRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E8300129D88C5400869522 /* SwiftyCornerRootView.swift */; };
+		94E8300429D88C5700869522 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94E8300329D88C5700869522 /* Assets.xcassets */; };
+		94E8300729D88C5700869522 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94E8300629D88C5700869522 /* Preview Assets.xcassets */; };
+		94E8301129D88C5700869522 /* Swifty_CornerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E8301029D88C5700869522 /* Swifty_CornerTests.swift */; };
+		94E8301B29D88C5700869522 /* Swifty_CornerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E8301A29D88C5700869522 /* Swifty_CornerUITests.swift */; };
+		94E8301D29D88C5700869522 /* Swifty_CornerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E8301C29D88C5700869522 /* Swifty_CornerUITestsLaunchTests.swift */; };
+		94E8302A29D8913B00869522 /* ThirdPartyLibrariesCatalogue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E8302929D8913A00869522 /* ThirdPartyLibrariesCatalogue.swift */; };
+		94E8302C29D891BA00869522 /* ExtensionsCatalogue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E8302B29D891BA00869522 /* ExtensionsCatalogue.swift */; };
+		94E8303029D8988F00869522 /* NumberTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E8302F29D8988F00869522 /* NumberTextField.swift */; };
+		94E8303729D89C2C00869522 /* iPhoneNumberField in Frameworks */ = {isa = PBXBuildFile; productRef = 94E8303629D89C2C00869522 /* iPhoneNumberField */; };
+		94E8303A29D8A13E00869522 /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E8303929D8A13E00869522 /* RowView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		94E8300D29D88C5700869522 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94E82FF429D88C5400869522 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94E82FFB29D88C5400869522;
+			remoteInfo = "Swifty Corner";
+		};
+		94E8301729D88C5700869522 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94E82FF429D88C5400869522 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94E82FFB29D88C5400869522;
+			remoteInfo = "Swifty Corner";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		94E82FFC29D88C5400869522 /* Swifty Corner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swifty Corner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94E82FFF29D88C5400869522 /* Swifty_CornerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swifty_CornerApp.swift; sourceTree = "<group>"; };
+		94E8300129D88C5400869522 /* SwiftyCornerRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyCornerRootView.swift; sourceTree = "<group>"; };
+		94E8300329D88C5700869522 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		94E8300629D88C5700869522 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		94E8300C29D88C5700869522 /* Swifty CornerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swifty CornerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94E8301029D88C5700869522 /* Swifty_CornerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swifty_CornerTests.swift; sourceTree = "<group>"; };
+		94E8301629D88C5700869522 /* Swifty CornerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swifty CornerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		94E8301A29D88C5700869522 /* Swifty_CornerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swifty_CornerUITests.swift; sourceTree = "<group>"; };
+		94E8301C29D88C5700869522 /* Swifty_CornerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swifty_CornerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		94E8302929D8913A00869522 /* ThirdPartyLibrariesCatalogue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdPartyLibrariesCatalogue.swift; sourceTree = "<group>"; };
+		94E8302B29D891BA00869522 /* ExtensionsCatalogue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionsCatalogue.swift; sourceTree = "<group>"; };
+		94E8302F29D8988F00869522 /* NumberTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberTextField.swift; sourceTree = "<group>"; };
+		94E8303929D8A13E00869522 /* RowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94E82FF929D88C5400869522 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94E8303729D89C2C00869522 /* iPhoneNumberField in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94E8300929D88C5700869522 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94E8301329D88C5700869522 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94E82FF329D88C5400869522 = {
+			isa = PBXGroup;
+			children = (
+				94E82FFE29D88C5400869522 /* Swifty Corner */,
+				94E8300F29D88C5700869522 /* Swifty CornerTests */,
+				94E8301929D88C5700869522 /* Swifty CornerUITests */,
+				94E82FFD29D88C5400869522 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		94E82FFD29D88C5400869522 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94E82FFC29D88C5400869522 /* Swifty Corner.app */,
+				94E8300C29D88C5700869522 /* Swifty CornerTests.xctest */,
+				94E8301629D88C5700869522 /* Swifty CornerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94E82FFE29D88C5400869522 /* Swifty Corner */ = {
+			isa = PBXGroup;
+			children = (
+				94E8303829D8A13000869522 /* SharedViews */,
+				94E8302E29D8981D00869522 /* Extensions */,
+				94E8302D29D8981500869522 /* ThirdParty */,
+				94E82FFF29D88C5400869522 /* Swifty_CornerApp.swift */,
+				94E8300129D88C5400869522 /* SwiftyCornerRootView.swift */,
+				94E8300329D88C5700869522 /* Assets.xcassets */,
+				94E8300529D88C5700869522 /* Preview Content */,
+			);
+			path = "Swifty Corner";
+			sourceTree = "<group>";
+		};
+		94E8300529D88C5700869522 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				94E8300629D88C5700869522 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		94E8300F29D88C5700869522 /* Swifty CornerTests */ = {
+			isa = PBXGroup;
+			children = (
+				94E8301029D88C5700869522 /* Swifty_CornerTests.swift */,
+			);
+			path = "Swifty CornerTests";
+			sourceTree = "<group>";
+		};
+		94E8301929D88C5700869522 /* Swifty CornerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				94E8301A29D88C5700869522 /* Swifty_CornerUITests.swift */,
+				94E8301C29D88C5700869522 /* Swifty_CornerUITestsLaunchTests.swift */,
+			);
+			path = "Swifty CornerUITests";
+			sourceTree = "<group>";
+		};
+		94E8302D29D8981500869522 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				94E8303429D898BD00869522 /* Lottie */,
+				94E8303329D898B200869522 /* Kingfisher */,
+				94E8302929D8913A00869522 /* ThirdPartyLibrariesCatalogue.swift */,
+				94E8303229D8989800869522 /* iPhoneNumberTextField */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		94E8302E29D8981D00869522 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				94E8302B29D891BA00869522 /* ExtensionsCatalogue.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		94E8303229D8989800869522 /* iPhoneNumberTextField */ = {
+			isa = PBXGroup;
+			children = (
+				94E8302F29D8988F00869522 /* NumberTextField.swift */,
+			);
+			path = iPhoneNumberTextField;
+			sourceTree = "<group>";
+		};
+		94E8303329D898B200869522 /* Kingfisher */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Kingfisher;
+			sourceTree = "<group>";
+		};
+		94E8303429D898BD00869522 /* Lottie */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Lottie;
+			sourceTree = "<group>";
+		};
+		94E8303829D8A13000869522 /* SharedViews */ = {
+			isa = PBXGroup;
+			children = (
+				94E8303929D8A13E00869522 /* RowView.swift */,
+			);
+			path = SharedViews;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94E82FFB29D88C5400869522 /* Swifty Corner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94E8302029D88C5700869522 /* Build configuration list for PBXNativeTarget "Swifty Corner" */;
+			buildPhases = (
+				94E82FF829D88C5400869522 /* Sources */,
+				94E82FF929D88C5400869522 /* Frameworks */,
+				94E82FFA29D88C5400869522 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swifty Corner";
+			packageProductDependencies = (
+				94E8303629D89C2C00869522 /* iPhoneNumberField */,
+			);
+			productName = "Swifty Corner";
+			productReference = 94E82FFC29D88C5400869522 /* Swifty Corner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		94E8300B29D88C5700869522 /* Swifty CornerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94E8302329D88C5700869522 /* Build configuration list for PBXNativeTarget "Swifty CornerTests" */;
+			buildPhases = (
+				94E8300829D88C5700869522 /* Sources */,
+				94E8300929D88C5700869522 /* Frameworks */,
+				94E8300A29D88C5700869522 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94E8300E29D88C5700869522 /* PBXTargetDependency */,
+			);
+			name = "Swifty CornerTests";
+			productName = "Swifty CornerTests";
+			productReference = 94E8300C29D88C5700869522 /* Swifty CornerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		94E8301529D88C5700869522 /* Swifty CornerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94E8302629D88C5700869522 /* Build configuration list for PBXNativeTarget "Swifty CornerUITests" */;
+			buildPhases = (
+				94E8301229D88C5700869522 /* Sources */,
+				94E8301329D88C5700869522 /* Frameworks */,
+				94E8301429D88C5700869522 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94E8301829D88C5700869522 /* PBXTargetDependency */,
+			);
+			name = "Swifty CornerUITests";
+			productName = "Swifty CornerUITests";
+			productReference = 94E8301629D88C5700869522 /* Swifty CornerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94E82FF429D88C5400869522 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					94E82FFB29D88C5400869522 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					94E8300B29D88C5700869522 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 94E82FFB29D88C5400869522;
+					};
+					94E8301529D88C5700869522 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 94E82FFB29D88C5400869522;
+					};
+				};
+			};
+			buildConfigurationList = 94E82FF729D88C5400869522 /* Build configuration list for PBXProject "Swifty Corner" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 94E82FF329D88C5400869522;
+			packageReferences = (
+				94E8303529D89C2C00869522 /* XCRemoteSwiftPackageReference "iPhoneNumberField" */,
+			);
+			productRefGroup = 94E82FFD29D88C5400869522 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94E82FFB29D88C5400869522 /* Swifty Corner */,
+				94E8300B29D88C5700869522 /* Swifty CornerTests */,
+				94E8301529D88C5700869522 /* Swifty CornerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94E82FFA29D88C5400869522 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94E8300729D88C5700869522 /* Preview Assets.xcassets in Resources */,
+				94E8300429D88C5700869522 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94E8300A29D88C5700869522 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94E8301429D88C5700869522 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94E82FF829D88C5400869522 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94E8302A29D8913B00869522 /* ThirdPartyLibrariesCatalogue.swift in Sources */,
+				94E8303A29D8A13E00869522 /* RowView.swift in Sources */,
+				94E8302C29D891BA00869522 /* ExtensionsCatalogue.swift in Sources */,
+				94E8300229D88C5400869522 /* SwiftyCornerRootView.swift in Sources */,
+				94E8303029D8988F00869522 /* NumberTextField.swift in Sources */,
+				94E8300029D88C5400869522 /* Swifty_CornerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94E8300829D88C5700869522 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94E8301129D88C5700869522 /* Swifty_CornerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94E8301229D88C5700869522 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94E8301B29D88C5700869522 /* Swifty_CornerUITests.swift in Sources */,
+				94E8301D29D88C5700869522 /* Swifty_CornerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		94E8300E29D88C5700869522 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94E82FFB29D88C5400869522 /* Swifty Corner */;
+			targetProxy = 94E8300D29D88C5700869522 /* PBXContainerItemProxy */;
+		};
+		94E8301829D88C5700869522 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94E82FFB29D88C5400869522 /* Swifty Corner */;
+			targetProxy = 94E8301729D88C5700869522 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		94E8301E29D88C5700869522 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		94E8301F29D88C5700869522 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94E8302129D88C5700869522 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Swifty Corner/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.swiftycorner.ios.Swifty-Corner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		94E8302229D88C5700869522 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Swifty Corner/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.swiftycorner.ios.Swifty-Corner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		94E8302429D88C5700869522 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.swiftycorner.ios.Swifty-CornerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swifty Corner.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Swifty Corner";
+			};
+			name = Debug;
+		};
+		94E8302529D88C5700869522 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.swiftycorner.ios.Swifty-CornerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swifty Corner.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Swifty Corner";
+			};
+			name = Release;
+		};
+		94E8302729D88C5700869522 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.swiftycorner.ios.Swifty-CornerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Swifty Corner";
+			};
+			name = Debug;
+		};
+		94E8302829D88C5700869522 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.swiftycorner.ios.Swifty-CornerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Swifty Corner";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94E82FF729D88C5400869522 /* Build configuration list for PBXProject "Swifty Corner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94E8301E29D88C5700869522 /* Debug */,
+				94E8301F29D88C5700869522 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94E8302029D88C5700869522 /* Build configuration list for PBXNativeTarget "Swifty Corner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94E8302129D88C5700869522 /* Debug */,
+				94E8302229D88C5700869522 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94E8302329D88C5700869522 /* Build configuration list for PBXNativeTarget "Swifty CornerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94E8302429D88C5700869522 /* Debug */,
+				94E8302529D88C5700869522 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94E8302629D88C5700869522 /* Build configuration list for PBXNativeTarget "Swifty CornerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94E8302729D88C5700869522 /* Debug */,
+				94E8302829D88C5700869522 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		94E8303529D89C2C00869522 /* XCRemoteSwiftPackageReference "iPhoneNumberField" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MojtabaHs/iPhoneNumberField";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		94E8303629D89C2C00869522 /* iPhoneNumberField */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 94E8303529D89C2C00869522 /* XCRemoteSwiftPackageReference "iPhoneNumberField" */;
+			productName = iPhoneNumberField;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 94E82FF429D88C5400869522 /* Project object */;
+}
