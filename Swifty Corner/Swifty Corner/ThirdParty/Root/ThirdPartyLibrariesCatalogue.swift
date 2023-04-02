@@ -8,9 +8,6 @@
 import SwiftUI
 
 struct ThirdPartyLibrariesCatalogueView: View {
-    enum Library {
-        case iPhoneNumberTextField
-    }
     var body: some View {
         List {
             NavigationLink(destination: NumberTextField(), label: {

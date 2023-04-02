@@ -9,8 +9,14 @@ import SwiftUI
 
 struct ExtensionsCatalogueView: View {
     var body: some View {
-        Text("Extensions showcase")
-            .font(.system(size: 24, weight: .bold))
+        List {
+            NavigationLink(destination: View_HideNavigation(), label: {
+                RowView(title: "View+HideNavigation")
+            })
+            NavigationLink(destination: View_If(), label: {
+                RowView(title: "View+If")
+            })
+        }
     }
 }
 

@@ -19,6 +19,8 @@
 		94E8303029D8988F00869522 /* NumberTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E8302F29D8988F00869522 /* NumberTextField.swift */; };
 		94E8303729D89C2C00869522 /* iPhoneNumberField in Frameworks */ = {isa = PBXBuildFile; productRef = 94E8303629D89C2C00869522 /* iPhoneNumberField */; };
 		94E8303A29D8A13E00869522 /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E8303929D8A13E00869522 /* RowView.swift */; };
+		94E8303F29DA1C2700869522 /* View+If.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E8303E29DA1C2700869522 /* View+If.swift */; };
+		94E8304229DA1C6F00869522 /* View+HideNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E8304129DA1C6F00869522 /* View+HideNavigation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		94E8302B29D891BA00869522 /* ExtensionsCatalogue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionsCatalogue.swift; sourceTree = "<group>"; };
 		94E8302F29D8988F00869522 /* NumberTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberTextField.swift; sourceTree = "<group>"; };
 		94E8303929D8A13E00869522 /* RowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
+		94E8303E29DA1C2700869522 /* View+If.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+If.swift"; sourceTree = "<group>"; };
+		94E8304129DA1C6F00869522 /* View+HideNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+HideNavigation.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,9 +147,9 @@
 		94E8302D29D8981500869522 /* ThirdParty */ = {
 			isa = PBXGroup;
 			children = (
+				94E8303B29DA1BED00869522 /* Root */,
 				94E8303429D898BD00869522 /* Lottie */,
 				94E8303329D898B200869522 /* Kingfisher */,
-				94E8302929D8913A00869522 /* ThirdPartyLibrariesCatalogue.swift */,
 				94E8303229D8989800869522 /* iPhoneNumberTextField */,
 			);
 			path = ThirdParty;
@@ -154,7 +158,9 @@
 		94E8302E29D8981D00869522 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				94E8302B29D891BA00869522 /* ExtensionsCatalogue.swift */,
+				94E8303C29DA1BFE00869522 /* Root */,
+				94E8303D29DA1C1200869522 /* View+If */,
+				94E8304029DA1C5C00869522 /* View+HideNavigation */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -187,6 +193,38 @@
 				94E8303929D8A13E00869522 /* RowView.swift */,
 			);
 			path = SharedViews;
+			sourceTree = "<group>";
+		};
+		94E8303B29DA1BED00869522 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				94E8302929D8913A00869522 /* ThirdPartyLibrariesCatalogue.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		94E8303C29DA1BFE00869522 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				94E8302B29D891BA00869522 /* ExtensionsCatalogue.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		94E8303D29DA1C1200869522 /* View+If */ = {
+			isa = PBXGroup;
+			children = (
+				94E8303E29DA1C2700869522 /* View+If.swift */,
+			);
+			path = "View+If";
+			sourceTree = "<group>";
+		};
+		94E8304029DA1C5C00869522 /* View+HideNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				94E8304129DA1C6F00869522 /* View+HideNavigation.swift */,
+			);
+			path = "View+HideNavigation";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -328,6 +366,8 @@
 				94E8302A29D8913B00869522 /* ThirdPartyLibrariesCatalogue.swift in Sources */,
 				94E8303A29D8A13E00869522 /* RowView.swift in Sources */,
 				94E8302C29D891BA00869522 /* ExtensionsCatalogue.swift in Sources */,
+				94E8303F29DA1C2700869522 /* View+If.swift in Sources */,
+				94E8304229DA1C6F00869522 /* View+HideNavigation.swift in Sources */,
 				94E8300229D88C5400869522 /* SwiftyCornerRootView.swift in Sources */,
 				94E8303029D8988F00869522 /* NumberTextField.swift in Sources */,
 				94E8300029D88C5400869522 /* Swifty_CornerApp.swift in Sources */,
