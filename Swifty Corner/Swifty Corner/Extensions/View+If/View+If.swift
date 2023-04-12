@@ -19,6 +19,7 @@ extension View {
 
 struct View_If: View {
     @State private var buttonPressed = false
+    
     var body: some View {
         VStack {
             Text("This label will go bold when you press the button")

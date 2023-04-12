@@ -19,6 +19,7 @@ struct NumberTextField: View {
             .foregroundColor(Color.black)
             .padding()
             .background(Color.orange)
+            .padding()
     }
 }
 

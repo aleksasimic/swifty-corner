@@ -13,6 +13,14 @@ struct ThirdPartyLibrariesCatalogueView: View {
             NavigationLink(destination: NumberTextField(), label: {
                 RowView(title: "iPhoneNumberTextField")
             })
+
+            NavigationLink(destination: KingfisherView(), label: {
+                RowView(title: "Kingfisher")
+            })
+
+            NavigationLink(destination: LottieScreen(), label: {
+                RowView(title: "Lottie animations")
+            })
         }
     }
 }
