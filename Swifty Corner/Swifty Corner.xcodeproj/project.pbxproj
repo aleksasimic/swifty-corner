@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		948C3A2B29FF056E00FC2256 /* ViewModifiersCatalogueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948C3A2A29FF056E00FC2256 /* ViewModifiersCatalogueView.swift */; };
 		948C3A2E29FF05C400FC2256 /* TapAndLongPressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948C3A2D29FF05C400FC2256 /* TapAndLongPressView.swift */; };
+		948C3A3229FF0ACA00FC2256 /* SwiftUIViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948C3A3129FF0ACA00FC2256 /* SwiftUIViews.swift */; };
+		948C3A3529FF0AEF00FC2256 /* Spinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948C3A3429FF0AEF00FC2256 /* Spinner.swift */; };
 		94CA0F9729E5FB2700FCCADB /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CA0F9629E5FB2700FCCADB /* LottieView.swift */; };
 		94CA0F9929E5FB3200FCCADB /* KingfisherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94CA0F9829E5FB3200FCCADB /* KingfisherView.swift */; };
 		94CA0F9C29E5FBB900FCCADB /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 94CA0F9B29E5FBB900FCCADB /* Kingfisher */; };
@@ -50,6 +52,8 @@
 /* Begin PBXFileReference section */
 		948C3A2A29FF056E00FC2256 /* ViewModifiersCatalogueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifiersCatalogueView.swift; sourceTree = "<group>"; };
 		948C3A2D29FF05C400FC2256 /* TapAndLongPressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapAndLongPressView.swift; sourceTree = "<group>"; };
+		948C3A3129FF0ACA00FC2256 /* SwiftUIViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIViews.swift; sourceTree = "<group>"; };
+		948C3A3429FF0AEF00FC2256 /* Spinner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spinner.swift; sourceTree = "<group>"; };
 		94CA0F9629E5FB2700FCCADB /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
 		94CA0F9829E5FB3200FCCADB /* KingfisherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingfisherView.swift; sourceTree = "<group>"; };
 		94CA0FA129E5FEBB00FCCADB /* confetti.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = confetti.json; sourceTree = "<group>"; };
@@ -124,6 +128,31 @@
 			path = TapAndLongPress;
 			sourceTree = "<group>";
 		};
+		948C3A2F29FF0AAB00FC2256 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				948C3A3329FF0ADD00FC2256 /* SpinnerView */,
+				948C3A3029FF0AB400FC2256 /* Root */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		948C3A3029FF0AB400FC2256 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				948C3A3129FF0ACA00FC2256 /* SwiftUIViews.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		948C3A3329FF0ADD00FC2256 /* SpinnerView */ = {
+			isa = PBXGroup;
+			children = (
+				948C3A3429FF0AEF00FC2256 /* Spinner.swift */,
+			);
+			path = SpinnerView;
+			sourceTree = "<group>";
+		};
 		94CA0FA029E5FEA100FCCADB /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -160,6 +189,7 @@
 				94E8302E29D8981D00869522 /* Extensions */,
 				94E8302D29D8981500869522 /* ThirdParty */,
 				948C3A2829FF051300FC2256 /* ViewModifiers */,
+				948C3A2F29FF0AAB00FC2256 /* Views */,
 				94E82FFF29D88C5400869522 /* Swifty_CornerApp.swift */,
 				94E8300129D88C5400869522 /* SwiftyCornerRootView.swift */,
 				94E8300329D88C5700869522 /* Assets.xcassets */,
@@ -422,8 +452,10 @@
 				948C3A2B29FF056E00FC2256 /* ViewModifiersCatalogueView.swift in Sources */,
 				94E8302A29D8913B00869522 /* ThirdPartyLibrariesCatalogue.swift in Sources */,
 				94E8303A29D8A13E00869522 /* RowView.swift in Sources */,
+				948C3A3529FF0AEF00FC2256 /* Spinner.swift in Sources */,
 				94CA0F9929E5FB3200FCCADB /* KingfisherView.swift in Sources */,
 				94CA0F9729E5FB2700FCCADB /* LottieView.swift in Sources */,
+				948C3A3229FF0ACA00FC2256 /* SwiftUIViews.swift in Sources */,
 				94E8302C29D891BA00869522 /* ExtensionsCatalogue.swift in Sources */,
 				94E8303F29DA1C2700869522 /* View+If.swift in Sources */,
 				94E8304229DA1C6F00869522 /* View+HideNavigation.swift in Sources */,

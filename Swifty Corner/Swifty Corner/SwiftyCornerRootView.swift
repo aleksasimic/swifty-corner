@@ -12,6 +12,7 @@ struct SwiftyCornerRootView: View {
         case thirdParty
         case extensions
         case viewModifiers
+        case views
     }
 
     @State private var navigationPath = NavigationPath()
@@ -40,6 +41,10 @@ struct SwiftyCornerRootView: View {
                         .onTapGesture {
                             navigationPath.append(Section.viewModifiers)
                         }
+                    RowView(title: "SwiftUI Views")
+                        .onTapGesture {
+                            navigationPath.append(Section.views)
+                        }
                 }
             }
             .navigationDestination(for: Section.self) { section in
@@ -50,6 +55,8 @@ struct SwiftyCornerRootView: View {
                     ExtensionsCatalogueView()
                 case .viewModifiers:
                     ViewModifiersCatalogueView()
+                case .views:
+                    SwiftUIViews()
                 }
             }
         }
