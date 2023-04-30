@@ -11,6 +11,7 @@ struct SwiftyCornerRootView: View {
     enum Section {
         case thirdParty
         case extensions
+        case viewModifiers
     }
 
     @State private var navigationPath = NavigationPath()
@@ -35,6 +36,10 @@ struct SwiftyCornerRootView: View {
                         .onTapGesture {
                             navigationPath.append(Section.extensions)
                         }
+                    RowView(title: "SwiftUI ViewModifiers showcase")
+                        .onTapGesture {
+                            navigationPath.append(Section.viewModifiers)
+                        }
                 }
             }
             .navigationDestination(for: Section.self) { section in
@@ -43,6 +48,8 @@ struct SwiftyCornerRootView: View {
                     ThirdPartyLibrariesCatalogueView()
                 case .extensions:
                     ExtensionsCatalogueView()
+                case .viewModifiers:
+                    ViewModifiersCatalogueView()
                 }
             }
         }
